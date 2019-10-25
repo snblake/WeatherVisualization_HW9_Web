@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(188, 226, 224) ;
+}
+
+h1{
+	color: turquoise;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding: 20px 30px;
+}
+
+#brandlogo{
+    color: white; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5 em;
+    padding: 5px 20px;
+    background: turquoise
+
+}
+
+.container-fluid{
+	padding: 30px 30px;
+	margin-top: 3em;
+	padding-left: 3em;
+	padding-right: 3em;
+	align-items: flex-start;
+
+}
+
+.container{
+	padding: 30px 30px;
+	margin-top: 3em;
+	padding-left: 3em;
+	padding-right: 3em;
+	align-items: flex-center;
+
+}
+
+.mini-image{
+	padding: 0 15px;
+	height: 200px;
+	width: 250px;
+}
+
+#toggle{
+	position: relative;
+}
+span{
+    display: none;
+}
+#toggle:checked + span{
+	display: inline-grid;
+	width : 200px;
+   	height : 20px;
+}
+img{
+    cursor: pointer;
+}
+
+
+  
+  
